@@ -1,0 +1,194 @@
+body {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 100px;
+    background: radial-gradient(circle closest-side at 50px 50px, #FB8B24 3px, transparent 0), radial-gradient(circle closest-side at 40px 60px, #FB8B24 3px, transparent 0), radial-gradient(circle closest-side at 60px 60px, #FB8B24 3px, transparent 0), radial-gradient(circle closest-side at 50px 70px, #FB8B24 3px, transparent 0), radial-gradient(circle closest-side at 150px 165px, #FB8B24 3px, transparent 0), radial-gradient(circle closest-side at 140px 175px, #FB8B24 3px, transparent 0), radial-gradient(circle closest-side at 160px 175px, #FB8B24 3px, transparent 0), radial-gradient(circle closest-side at 150px 185px, #FB8B24 3px, transparent 0), radial-gradient(ellipse closest-side at 50px 60px, #F9A734 18px, transparent 0), radial-gradient(ellipse closest-side at 150px 175px, #F9A734 18px, transparent 0), radial-gradient(circle closest-side at 30px 40px, #F9D8D4 15px, transparent 0), radial-gradient(circle closest-side at 40px 35px, #36964C 15px, transparent 0), radial-gradient(circle closest-side at 70px 40px, #F9D8D4 15px, transparent 0), radial-gradient(circle closest-side at 60px 35px, #286E38 15px, transparent 0), radial-gradient(circle closest-side at 130px 155px, #F9D8D4 15px, transparent 0), radial-gradient(circle closest-side at 140px 150px, #36964C 15px, transparent 0), radial-gradient(circle at 170px 155px, #F9D8D4 15px, transparent 0), radial-gradient(circle at 160px 150px, #286E38 15px, transparent 0);
+    background-color: #F9D8D4;
+    background-size: 180px 210px;
+    -webkit-animation: animatedBackground 0.5s cubic-bezier(0.61, -0.64, 0.58, 1.46) forwards;
+    animation: animatedBackground 0.5s cubic-bezier(0.61, -0.64, 0.58, 1.46) forwards;
+}
+
+#info {
+    background: linear-gradient(to bottom right, rgb(137, 255, 163), rgb(78, 72, 72));
+    border-radius: 20px;
+    border: black 3px solid;
+    text-align: center;
+    align-content: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-left: 8%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+#searchvalue {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    background-blend-mode: color;
+    font-size: 35px;
+    color: gray;
+    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+    color: transparent;
+    border: solid black 2px;
+    border-radius: 20px;
+    padding-bottom: 0.5%;
+    background-image: linear-gradient(to bottom right, rgb(202, 52, 52), rgb(238, 238, 121));
+    ;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+#searchresults {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    padding-right: auto;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    background-color: #5885AF;
+}
+
+#figCap {
+    font-size: x-large;
+}
+
+input[type=text] {
+    width: 100px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    transition: width 0.3s ease-in-out;
+    background-color: rgb(140, 208, 240);
+    color: rgb(0, 0, 0);
+}
+
+input[type=text]:hover {
+    width: 120px;
+    background-color: white;
+}
+
+input[type=email] {
+    width: 100px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    transition: width 0.3s ease-in-out;
+    background-color: rgb(140, 208, 240);
+    color: rgb(0, 0, 0);
+}
+
+input[type=email]:hover {
+    width: 180px;
+    background-color: white;
+}
+
+.label {
+    margin: 5% 5% 5% 5%;
+    text-shadow: lightblue 1px 1px 2px;
+}
+
+#HEADER {
+    background-color: #274472;
+    color: white;
+}
+
+#header {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    font-size: xx-large;
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgb(235, 215, 101), rgb(86, 91, 94));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(2px 2px #333);
+}
+
+#title {
+    color: rgb(255, 255, 255);
+    padding-right: 25%;
+    text-shadow: blue 2px 2px 2px;
+}
+
+.input {
+    padding-left: 0%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(161, 136, 136);
+    position: fixed;
+    width: 80%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    color: green;
+}
+
+#A5 {
+    background-color: #111;
+    color: green;
+}
+
+#slogan {
+    font-size: 200%;
+    color: rgb(171, 171, 211);
+    font-weight: bolder;
+    text-shadow: black 1px 1px 5px;
+}
+
+#hhead {
+    font-size: 200%;
+    text-shadow: blue 1px 1px 5px;
+}
+
+#outputForm {
+    background-color: rgb(202, 120, 120);
+    margin-left: 0%;
+    display: none;
+}
+
+#m {
+    text-align: center;
+}
+
+#OUT-Header {
+    text-align: center;
+}
+
+body {
+    color: white;
+    background-color: #66a3ff;
+    background-image: repeating-linear-gradient(transparent, transparent 50px, purple 50px, purple 53px, transparent 53px, transparent 63px, purple 63px, purple 66px, transparent 66px, transparent 116px, rgba(0, 0, 0, .5) 116px, rgba(0, 0, 0, .5) 166px, rgba(255, 255, 255, .2) 166px, rgba(255, 255, 255, .2) 169px, rgba(0, 0, 0, .5) 169px, rgba(0, 0, 0, .5) 179px, rgba(255, 255, 255, .2) 179px, rgba(255, 255, 255, .2) 182px, rgba(0, 0, 0, .5) 182px, rgba(0, 0, 0, .5) 232px, transparent 232px), repeating-linear-gradient(270deg, transparent, transparent 50px, purple 50px, purple 53px, transparent 53px, transparent 63px, purple 63px, purple 66px, transparent 66px, transparent 116px, rgba(0, 0, 0, .5) 116px, rgba(0, 0, 0, .5) 166px, rgba(255, 255, 255, .2) 166px, rgba(255, 255, 255, .2) 169px, rgba(0, 0, 0, .5) 169px, rgba(0, 0, 0, .5) 179px, rgba(255, 255, 255, .2) 179px, rgba(255, 255, 255, .2) 182px, rgba(0, 0, 0, .5) 182px, rgba(0, 0, 0, .5) 232px, transparent 232px);
+}
+
+#receipt {
+    display: none;
+    background-color: rgb(41, 45, 51);
+    border: white 2px 2px solid;
+    margin-right: 70%;
+    padding-right: 20%;
+}
+
+.blue {
+    color: rgb(221, 218, 32);
+}

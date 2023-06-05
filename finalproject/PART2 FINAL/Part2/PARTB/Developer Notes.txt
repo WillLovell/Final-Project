@@ -1,0 +1,12 @@
+
+
+This web page consumes the XML file from the NYC OpenData site
+    Museums and galleries
+    https://data.cityofnewyork.us/Recreation/Museums-and-galleries/kcrm-j9hh
+
+    XML data file:
+    https://data.cityofnewyork.us/download/kcrm-j9hh/application%2Fxml
+
+
+You could also use this as an example of how to process the XML files that are being used in labs or project
+

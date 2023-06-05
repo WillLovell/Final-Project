@@ -1,0 +1,155 @@
+body {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 100px;
+    padding-top: 2%;
+    background: linear-gradient(-45deg, #7ad477, #883856, #386272, #bf89cc);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#info {
+    background: linear-gradient(to bottom right, rgb(247, 247, 146), rgb(131, 14, 14));
+    border-radius: 20px;
+    border: black 3px solid;
+    text-align: center;
+    align-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-left: 3.5%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+#searchvalue {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    background-blend-mode: color;
+    font-size: 35px;
+    color: gray;
+    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+    color: transparent;
+    border: solid black 2px;
+    border-radius: 20px;
+    padding-bottom: 0.5%;
+    background-image: linear-gradient(to bottom right, rgb(202, 52, 52), rgb(238, 238, 121));
+    ;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+#searchresults {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    padding-right: auto;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    background-color: #5885AF;
+}
+
+#figCap {
+    font-size: x-large;
+}
+
+input[type=text] {
+    width: 100px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    transition: width 0.3s ease-in-out;
+    background-color: rgb(140, 208, 240);
+    color: rgb(0, 0, 0);
+}
+
+
+
+.label {
+    text-shadow: lightblue 1px 1px 2px;
+}
+
+#HEADER {
+    background-color: #274472;
+    color: white;
+}
+
+#header {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    font-size: xx-large;
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgb(226, 108, 108), rgb(148, 167, 41));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(2px 2px #333);
+}
+
+#title {
+    color: rgb(255, 255, 255);
+    padding-right: 25%;
+    text-shadow: blue 2px 2px 2px;
+}
+
+.input {
+    padding-left: 5%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(161, 136, 136);
+    position: fixed;
+    width: 80%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    color: green;
+}
+
+#A4 {
+    background-color: #111;
+    color: green;
+}
+
+#slogan {
+    font-size: 200%;
+    color: blue;
+    font-weight: bolder;
+    text-shadow: black 1px 1px 5px;
+}
+
+#hhead {
+    font-size: 200%;
+    text-shadow: blue 1px 1px 5px;
+}

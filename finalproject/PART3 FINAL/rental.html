@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent a Car</title>
+    <script type="text/javascript" src="rental.js"></script>
+    <script type="text/javascript" src="StandardJSFunctions.js"></script>
+    <link href="rental.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li id="A"><a href="../Part1/index.html">Home</a></li>
+            <li id="A1"><a href="../Part1/data1.html">Crimes and Dissorders</a></li>
+            <li id="A2"><a href="../Part1/data2.html">Traffic Incidents</a></li>
+            <li id="A3"><a href="../Part1/data3.html">Cameras</a></li>
+            <li id="A4"><a href="../Part1/data4.html">Building Permits</a></li>
+            <li id="A4"><a href="../PART2 FINAL/Part2/PARTB/PARTB.html">Web Development Quiz</a></li>
+            <li id="A5"><a href="rental.html">Rent a Car</a></li>
+        </ul>
+    </div><br><br>
+    <h2 id="hhead"> <img src="../Part1/searchLOGO.png" alt="searchLogo" width="35px">Search4Me
+        <h3 id="slogan">Is the best search engine around</h3>
+    </h2>
+
+    <h2 id="header">Dodgy Brakes Car Rental</h2>
+    <br>
+
+
+    <div id="info">
+        <p id="title">Enter a Value Below</p>
+        <table>
+            <tr>
+                <td class="label">Last Name</td>
+                <td><input type="text" size="30" id="lastName" placeholder="ex: Morecomb" class="input"></td>
+            </tr>
+        </table>
+    </div>
+
+    <br>
+    <div id="outputForm">
+        <h3 id="m">Order Here</h3>
+        <label for="lastanme"> Last Name</label>
+        <input type="text" name="lastname" value="" id="OUT-LastName">
+        <label for="firstname"> First Name</label>
+        <input type="text" name="firstname" value="" id="OUT-FirstName"><br>
+        <h3 id="OUT-Header">Location</h3>
+        <label for="address"> Address</label>
+        <input type="text" name="address" value="" id="OUT-Address">
+        <label for="phone">Phone Number</label>
+        <input type="text" name="phone" value="" id="OUT-Phone"><br>
+        <label for="State">State/Prov</label>
+        <input type="text" name="State" value="" id="OUT-State">
+        <label for="Email">Email</label>
+        <input type="email" name="Email" value="" id="OUT-Email"><br>
+
+
+        <input type="radio" name="OUT-TYPE" value="Compact" id="OUT-Compact" onclick="LoadForms(this.value)">
+        <label for="Compact"><sup>15</sup>$/d Compact</label> <br>
+        <input type="radio" name="OUT-TYPE" value="Mid-size" id="OUT-Mid_size" onclick="LoadForms(this.value)">
+        <label for="Mid-size"><sup>20</sup>$/d Mid-Size</label><br>
+        <input type="radio" name="OUT-TYPE" value="Luxury" id="OUT-Luxury" onclick="LoadForms(this.value)">
+        <label for="Luxury"><sup>35$</sup>/d Luxury</label><br>
+        <input type="radio" name="OUT-TYPE" value="Van/Truck" id="OUT-Van" onclick="LoadForms(this.value)">
+        <label for="Van"><sup>40</sup>$/d Van/Truck</label><br>
+
+
+        <div id="formArea-FormType">
+
+        </div>
+        <input type="button" value="Order Now" onclick="ordered()">
+    </div>
+    <div id="receipt">
+        <div>Order Confirmation</div>
+        <div>For
+            <p id="R-NAME" class="blue"></p>
+            <p id="R-PHONE" class="blue"></p>
+            <p id="R-ADDRESS" class="blue"></p>
+            <p id="R-STATE" class="blue"></p>
+            <p id="R-EMAIL" class="blue"></p>
+        </div>
+        <div>Time
+            <p id="R-DATE" class="blue"></p>
+        </div>
+        <div>Vehicle
+            <p id="R-CAR" class="blue"></p>
+        </div>
+        <div>Amount Total
+            <p id="R-TOTAL" class="blue"></p>
+        </div>
+    </div>
+    <h3 id="searchvalue"></h3>
+
+    <br>
+    <table id="searchresults">
+
+
+
+    </table>
+
+
+
+</body>
+
+</html>

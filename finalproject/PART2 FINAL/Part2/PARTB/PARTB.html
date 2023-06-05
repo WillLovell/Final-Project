@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Dev Quiz</title>
+
+    <script type="text/javascript" rel="script" src="/JS/StandardJSFunctions.js"></script>
+    <script type="text/javascript" rel="script" src="/JS/FocusJSFunctions.js"></script>
+    <script type="text/javascript" rel="script" src="/JS/GlobalNavigation.js"></script>
+    <script type="text/javascript" rel="script" src="quizDisplay.js"></script>
+
+
+    <link type='text/css' rel='stylesheet' href="/CSS/ErrorValidation.css">
+    <link type='text/css' rel='stylesheet' href="/CSS/FocusJS.css">
+    <link type='text/css' rel='stylesheet' href="PARTB.css">
+
+    <!--<script type="text/javascript" rel="script" src="AJAXReader.js"></script>
+    <link type="text/css" rel="stylesheet" href="AJAXReader.css"> -->
+
+</head>
+
+<body>
+    <div id="common-nav">
+        <!-- Common navigation will go here -->
+    </div>
+    <div id="err-message" class='hidden'></div>
+    <span id="popup-help" class="msg-icon hidden"></span>
+
+    <!-- The technique used to implement this was found on a CodePen from Jerald Austero
+        https://codepen.io/Jaoaustero/full/XOYJKV
+    -->
+    <div id="scorepage">
+        <ul>
+            <li id="A"><a href="../../../Part1/index.html">Home</a></li>
+            <li id="A1"><a href="../../../Part1/data1.html">Crimes and Dissorders</a></li>
+            <li id="A2"><a href="../../../Part1/data2.html">Traffic Incidents</a></li>
+            <li id="A3"><a href="../../../Part1/data3.html">Cameras</a></li>
+            <li id="A4"><a href="../../../Part1/data4.html">Building Permits</a></li>
+            <li id="A4"><a href="./PARTB.html">Web Development Quiz</a></li>
+            <li id="A4"><a href="../../../PART3 FINAL/rental.html">Rent a Car</a></li>
+        </ul><br>
+        <br><br>
+        <div>
+            <div>
+                <header id="questionHeader" class="H-Header">Web Development Quiz</header>
+            </div>
+            <div>
+                <div class="middle">_________________</div>
+                <p class="questionLabel">1) In a switch statement, the ________ case clause is used to process exceptional conditions and is usually listed last."</p>
+            </div>
+            <div>
+                <input type="radio" name="question1">
+                <label class="answerForQuestion">A) break</label>
+            </div>
+            <div>
+                <input type="radio" name="question1">
+                <label class="answerForQuestion">B) default</label>
+            </div>
+            <div>
+                <input type="radio" name="question1">
+                <label class="answerForQuestion">C) else</label>
+            </div>
+            <div>
+                <input type="radio" name="question1">
+                <label class="answerForQuestion">D) then</label>
+            </div>
+            <div class="middle">_________________</div>
+
+            <p class="questionLabel">2) The technique of developing and maintaining a large program by constructing it from small, simple pieces is called ________.</p>
+        </div>
+        <div>
+            <input type="radio" name="question2">
+            <label class="answerForQuestion">A) divide and conquer</label>
+        </div>
+        <div>
+            <input type="radio" name="question2">
+            <label class="answerForQuestion">B) modular programming</label>
+        </div>
+        <div>
+            <input type="radio" name="question2">
+            <label class="answerForQuestion">C) multitasking</label>
+        </div>
+        <div>
+            <input type="radio" name="question2">
+            <label class="answerForQuestion">D) multiprogramming</label>
+        </div>
+        <div>
+            <div class="middle">_________________</div>
+            <p class="questionLabel">3) All variables declared in function definitions are ________.</p>
+        </div>
+        <div>
+            <input type="radio" name="question3">
+            <label class="answerForQuestion">A) global variables</label>
+        </div>
+        <div>
+            <input type="radio" name="question3">
+            <label class="answerForQuestion">B) static variables</label>
+        </div>
+        <div>
+            <input type="radio" name="question3">
+            <label class="answerForQuestion">C) constant variables</label>
+        </div>
+        <div>
+            <input type="radio" name="question3">
+            <label class="answerForQuestion">D) local variables</label>
+        </div>
+
+        <div>
+            <div class="middle">_________________</div>
+            <p class="questionLabel">4) A function’s ________ are also considered to be local variables.</p>
+        </div>
+        <div>
+            <input type="radio" name="question4">
+            <label class="answerForQuestion">A) parameters</label>
+        </div>
+        <div>
+            <input type="radio" name="question4">
+            <label class="answerForQuestion">B) static variables</label>
+        </div>
+        <div>
+            <input type="radio" name="question4">
+            <label class="answerForQuestion">C) register variables</label>
+        </div>
+        <div>
+            <input type="radio" name="question4">
+            <label class="answerForQuestion">D) constant variables</label>
+        </div>
+
+        <div>
+            <div class="middle">_________________</div>
+            <p class="questionLabel">5) The style of programming in which the user interacts with a GUI component is called ________ programming.</p>
+        </div>
+        <div>
+            <input type="radio" name="question5">
+            <label class="answerForQuestion">A) modular</label>
+        </div>
+        <div>
+            <input type="radio" name="question5">
+            <label class="answerForQuestion">B) automatic</label>
+        </div>
+        <div>
+            <input type="radio" name="question5">
+            <label class="answerForQuestion">C) event driven</label>
+        </div>
+        <div>
+            <input type="radio" name="question5">
+            <label class="answerForQuestion">D) object oriented</label>
+        </div>
+        <div class="middle">_________________</div>
+
+
+        <p id="end">When finished you can press submit</p>
+        <input type="button" value="Submit" id="sumbit" onclick="gradeQuiz()">
+        <a href="../../../Part1/index.html">Back to Main Page</a>
+    </div>
+
+
+</body>
+
+</html>

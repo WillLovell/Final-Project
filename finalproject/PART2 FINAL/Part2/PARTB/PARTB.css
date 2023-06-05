@@ -1,0 +1,105 @@
+body {
+    margin-left: 5%;
+}
+
+.middle {
+    background-color: rgb(30, 8, 131);
+    border: black 2px solid;
+    border-radius: 30px;
+    margin-right: 5%;
+}
+
+.H-Header {
+    font-size: 25px;
+    text-align: center;
+}
+
+input[type=radio] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type=button] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.3s;
+    outline: none;
+    cursor: pointer;
+    border-color: black;
+    color: black;
+    font-weight: bold;
+}
+
+input[type=button]:hover {
+    background-color: blue;
+    border-radius: 50px;
+    color: white;
+    text-decoration: underline;
+}
+
+#congrats {
+    font-size: x-large;
+    font-size: 250%;
+}
+
+#QHeader {
+    color: red;
+}
+
+#QSubmit {
+    color: green;
+}
+
+#QAnswer {
+    color: orange;
+}
+
+#QSummary {
+    color: purple;
+}
+
+#QHeader {
+    font-size: x-large;
+    color: blue;
+}
+
+#QDone {
+    color: red;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(161, 136, 136);
+    position: fixed;
+    width: 80%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    color: green;
+}
